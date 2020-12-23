@@ -2,6 +2,9 @@
 
 Design to know about Horoscope.
 
+Also available on Google Play Store..
+https://play.google.com/store/apps/details?id=com.discoveritech.discoverhoroscope&hl=en&gl=US
+
 
 ## Questions
 
