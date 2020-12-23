@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_background"
+    android:layoutDirection="ltr">
+
+    <RelativeLayout
+        android:id="@+id/myToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btn_back_horoscope_view"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/back_arrow" />
+
+        <TextView
+            android:id="@+id/lbl_horoscope_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:letterSpacing="0.20"
+            android:padding="18dp"
+            android:singleLine="true"
+            android:text="@string/horoscope_view"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/large_text_size" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/myToolbar"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:paddingEnd="20dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/calander" />
+
+        <TextView
+            android:id="@+id/date_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="15-04-1994"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/horoscope_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myToolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:paddingRight="20dp"
+        android:text="Apr 22 - may 24"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size" />
+
+
+    <TextView
+        android:id="@+id/lbl_uper_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_marginTop="10dp"
+        android:padding="30dp"
+        android:letterSpacing="0.02"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/img_fb"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fb" />
+
+            <ImageButton
+                android:id="@+id/img_twiter"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@+id/img_fb"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/twitter" />
+
+            <ImageButton
+                android:id="@+id/img_insta"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@+id/img_twiter"
+                android:background="@color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/insta" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lbl_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_layout"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/lbl_www_discoveritech_com"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "103246193966",
+    "firebase_url": "https://discoverhoroscope.firebaseio.com",
+    "project_id": "discoverhoroscope",
+    "storage_bucket": "discoverhoroscope.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103246193966:android:63fb850abb7a4be9e586bf",
+        "android_client_info": {
+          "package_name": "com.discoveritech.discoverhoroscope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103246193966-1n2ept46t4lr7amm6mbvlbq5jaeavsth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYHl52yfbxM2APIW6IXjoE0G1WvJO5Q_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103246193966-1n2ept46t4lr7amm6mbvlbq5jaeavsth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
